@@ -8,6 +8,12 @@ console.log(min(0, 10));
 console.log(min(0, -10));
 // → -10
 
+function calculateCircumference(radius) {
+    return  2 * radius * 3.14;
+}
+
+   console.log(calculateCircumference(5)); 
+// will output 31.4
 
 function countChar(string, ch) {
     let counted = 0
